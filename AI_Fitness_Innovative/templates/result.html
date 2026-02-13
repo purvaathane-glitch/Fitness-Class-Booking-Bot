@@ -1,0 +1,12 @@
+<head>
+    <title>AI Gym System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<h2>Prediction Result</h2>
+
+<p>Retention Status: {{ risk }}</p>
+<p>Renewal Probability: {{ probability }}%</p>
+<p>Recommended Plan: {{ recommendation }}</p>
+<p>Projected Weight After 8 Weeks: {{ forecast }}</p>
+
+<a href="/">Back</a>
